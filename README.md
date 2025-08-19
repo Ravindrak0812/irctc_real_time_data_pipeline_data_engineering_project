@@ -9,8 +9,8 @@ A real-time streaming pipeline that captures IRCTC ticket booking data using **P
 ```
 [ Pub/Sub Topic ]
         ↓
-[ Dataflow Pipeline ] → UDF transforms → Writes to GCS (raw backup)
-                                    → Writes to BigQuery (analytics)
+[ Dataflow Pipeline ] → UDF transforms → Read function from GCS and also store the rejected data
+(Google Cloud Storage) → Writes to BigQuery (analytics)
 ```
 
 ### 🔄 Steps:
