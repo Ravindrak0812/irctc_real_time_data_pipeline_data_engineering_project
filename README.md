@@ -1,6 +1,6 @@
 # 🚆 IRCTC Real-Time Data Pipeline (GCP)  
 
-A real-time streaming pipeline that captures IRCTC ticket booking data using **Pub/Sub**, processes it with **Dataflow** via a **UDF**, stores raw data in **GCS**, and writes structured results to **BigQuery**—all packaged in a clean, emoji-driven README!  
+A real-time streaming pipeline that captures IRCTC ticket booking data using **Pub/Sub**, processes it with **Dataflow** via a **UDF**, stores raw data in **GCS**, and writes structured results to **BigQuery**  
 
 ---
 
