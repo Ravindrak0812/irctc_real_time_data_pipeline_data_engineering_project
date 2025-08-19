@@ -17,7 +17,7 @@ A real-time streaming pipeline that captures IRCTC ticket booking data using **P
 1. **Simulate or stream IRCTC booking events** → Pub/Sub  
 2. **Dataflow ingestion** → Reads from Pub/Sub via subscription  
 3. **Apply UDF transform** → Clean/enrich data  
-4. **Output raw backup** → Store to GCS bucket  
+4. **read udf from** → GCS bucket  
 5. **Load structured data** → Write to BigQuery tables  
 
 ---
